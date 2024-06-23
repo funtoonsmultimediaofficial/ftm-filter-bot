@@ -175,12 +175,12 @@ Nᴀᴍᴇ - {}"""
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
 ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ..."""
 
-    MVE_NT_FND = """ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ...
+    MVE_NT_FND =
     
     btn = [[
             InlineKeyboardButton('‼️ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ‼️', url="https://t.me/atozmoviesrequest")
         ]]
-        await query.message.edit(f"ʜᴇʏ. {query.from_user.mention}\n\nᴛʜɪꜱ ᴍᴏᴠɪᴇ ɴᴏᴛ ғᴏᴜɴᴅ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ..\n\nʏᴏᴜʀ #ʀᴇǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ᴀᴄᴄᴇᴘᴛᴇᴅ! ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ ғᴏʀ ᴏᴜʀ ᴀᴅᴍɪɴꜱ ᴛᴏ ʀᴇꜱᴘᴏɴᴅ..", reply_markup=InlineKeyboardMarkup(btn))"""
+        await query.message.edit(f"ʜᴇʏ. {query.from_user.mention}\n\nᴛʜɪꜱ ᴍᴏᴠɪᴇ ɴᴏᴛ ғᴏᴜɴᴅ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ..\n\nʏᴏᴜʀ #ʀᴇǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ᴀᴄᴄᴇᴘᴛᴇᴅ! ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ ғᴏʀ ᴏᴜʀ ᴀᴅᴍɪɴꜱ ᴛᴏ ʀᴇꜱᴘᴏɴᴅ..", reply_markup=InlineKeyboardMarkup(btn))
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
 

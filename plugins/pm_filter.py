@@ -2842,7 +2842,7 @@ async def auto_filter(client, name, msg, reply_msg, ai_search, spoll=False):
     TEMPLATE = script.IMDB_TEMPLATE_TXT
     if imdb:
         cap = TEMPLATE.format(
-            qurey=search,
+            query=search,
             title=imdb['title'],
             votes=imdb['votes'],
             aka=imdb["aka"],

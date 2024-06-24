@@ -665,7 +665,7 @@ async def get_cap(settings, remaining_seconds, files, query, total_results, sear
             if imdb:
                 TEMPLATE = script.IMDB_TEMPLATE_TXT
                 cap = TEMPLATE.format(
-                    qurey=search,
+                    query=search,
                     title=imdb['title'],
                     votes=imdb['votes'],
                     aka=imdb["aka"],

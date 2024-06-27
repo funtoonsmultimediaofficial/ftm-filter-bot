@@ -101,9 +101,9 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', 'https://api.
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/+OZgxMYyhkFw5MDU1')
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'api.shareus.io')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'hRPS5vvZc0OGOEUQJMJzPiojoVK2')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'https://api.shareus.io/easy_api?key=VT7MpySSMiSaUBmIE2Ev1MiOc7F3&link=https://shareus.io')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")

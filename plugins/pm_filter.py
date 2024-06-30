@@ -289,11 +289,10 @@ async def advantage_spoll_choker(bot, query):
                 k = (movie, files, offset, total_results)
                 await auto_filter(bot, movie, query, reply_msg, ai_search, k)
             else:
-                btn = [
-     InlineKeyboardButton('‼️ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ‼️', url="https://t.me/atozmoviesrequest")
-        ]]
-        await query.message.edit(f"ʜᴇʏ. {query.from_user.mention}\n\nᴛʜɪꜱ ᴍᴏᴠɪᴇ ɴᴏᴛ ғᴏᴜɴᴅ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ..\n\nʏᴏᴜʀ #ʀᴇǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ᴀᴄᴄᴇᴘᴛᴇᴅ! ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ ғᴏʀ ᴏᴜʀ ᴀᴅᴍɪɴꜱ ᴛᴏ ʀᴇꜱᴘᴏɴᴅ..", reply_markup=InlineKeyboardMarkup(btn))
-                k = await query.message.edit(script.MVE_NT_FND)
+                btn = [[
+                    InlineKeyboardButton('‼️ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ‼️', url="https://t.me/atozmoviesrequest")
+                ]]                       
+                k = await query.message.edit(script.MVE_NT_FND, reply_markup=InlineKeyboardMarkup(btn))
                 await asyncio.sleep(10)
                 await k.delete()
 

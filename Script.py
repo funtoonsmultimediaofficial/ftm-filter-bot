@@ -175,13 +175,11 @@ Nᴀᴍᴇ - {}"""
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
 ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ..."""
     
-    MVE_NT_FND ="""ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ...
+    MVE_NT_FND ="""⭕ This Movie Is Not available in my database.....You Can request to our admin to upload
 
-If movie not found 
-Please request your movie here
-https://t.me/atozmoviesrequest
+⭕ಈ ಚಲನಚಿತ್ರವು ನನ್ನ ಡೇಟಾಬೇಸ್‌ನಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ..... ನೀವು ಅಪ್‌ಲೋಡ್ ಮಾಡಲು ನಮ್ಮ ನಿರ್ವಾಹಕರಿಗೆ ವಿನಂತಿಸಬಹುದು
 
-If available admin will upload movie within 6hrs"""
+⭕ यह मूवी मेरे डेटाबेस में उपलब्ध नहीं है... आप हमारे एडमिन से अपलोड करने का अनुरोध कर सकते हैं"""
     
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
 

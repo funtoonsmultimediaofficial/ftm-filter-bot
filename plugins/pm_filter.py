@@ -290,7 +290,7 @@ async def advantage_spoll_choker(bot, query):
                 await auto_filter(bot, movie, query, reply_msg, ai_search, k)
             else:
                 btn = [[
-                    InlineKeyboardButton('Request Here ✅', url="https://t.me/atozmoviesrequest")
+                    InlineKeyboardButton('💢 Request Here 💢', url="https://t.me/atozmoviesrequest")
                 ]]                       
                 k = await query.message.edit(script.MVE_NT_FND, reply_markup=InlineKeyboardMarkup(btn))
                 await asyncio.sleep(10)

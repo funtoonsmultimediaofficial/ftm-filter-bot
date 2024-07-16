@@ -106,9 +106,9 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/How_To_Open_Linkl')
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'gplinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '17dd56e30d6b64514204a22168237c453c9b6358')
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', Ture))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Nanolinks.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'e3686f3ba4226ca56b94a0faf3edf4f5273ba8c1')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
@@ -133,7 +133,7 @@ YEARS = ["1900", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998",
 
 
 # Online Stream and Download
-STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 MULTI_CLIENT = False

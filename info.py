@@ -107,8 +107,8 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/How_To_Open_Linkl
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Nanolinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'e3686f3ba4226ca56b94a0faf3edf4f5273ba8c1')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Teraboxlinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '8490815a50aacac0e54269449473c73d4700e532')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")

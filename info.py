@@ -68,7 +68,7 @@ OWNER_USERNAME = environ.get('OWNER_USERNAME', 'Pro494j') # owner username witho
 # Clone Information : If Clone Mode Is True Then Bot Clone Other Bots.
 CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
 CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "mongodb+srv://autofilterbot62:autofilterbot62@cluster0.gfbi4dx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # Necessary If clone mode is true
-PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '-1002210449897') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
+PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '-1002243823652') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Movie_Request_Group_23')

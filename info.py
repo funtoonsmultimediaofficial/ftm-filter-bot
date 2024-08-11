@@ -18,8 +18,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'TechVJBot')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
+API_ID = int(environ.get('API_ID', '21784817'))
+API_HASH = environ.get('API_HASH', 'c8209405e82ac1d833e653d0330bbf17')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
@@ -53,7 +53,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "techvjautobot")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'techvjcollection')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'AkmkviesWorld')
 
 # Premium And Referal Settings
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) # Set Ture Or False
@@ -71,10 +71,10 @@ CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "") # Necessary If clone 
 PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/vj_bot_disscussion')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/vj_bots')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Open_Linkl')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'vj_bot_disscussion') # Support Chat Link Without https:// or @
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/ak_movie_worlds')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/ak_movies_worlds')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/free_movies_downloads_bot')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'A_K_movie_bot') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -103,12 +103,12 @@ VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '')
 # if verify second shortner is True then fill below url and api
 VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/How_To_Open_Linkl')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/free_movies_downloads_bot')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'api.shareus.io')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'hRPS5vvZc0OGOEUQJMJzPiojoVK2')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'yorurl.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'ddd55c3df1b2902260db517c4ded9954747dc6c7')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")

@@ -22,7 +22,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = int(environ.get('API_ID', '13786499'))
 API_HASH = environ.get('API_HASH', '429c3423fba4cac53c02b8da777e93a8')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7221966418:AAGs_lCAvpa0YRccxR8HBoT8dOX2SZk58FA"
+BOT_TOKEN = environ.get('BOT_TOKEN', "7221966418:AAGs_lCAvpa0YRccxR8HBoT8dOX2SZk58FA")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/3b79df5c0b4ed3286c2f5.jpg')).split() #SAMPLE PIC

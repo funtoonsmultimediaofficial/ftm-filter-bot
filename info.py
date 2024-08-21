@@ -112,8 +112,7 @@ SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shareus.io')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'xR5LVEpiKZTcgBzZGrwFXdohjGN2')
 
 # Others
-MAX_B_TN = environ.get("MAX_B_TN", "10
-")
+MAX_B_TN = environ.get("MAX_B_TN", "10")
 PORT = environ.get("PORT", "8080")
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")

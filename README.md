@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://graph.org/file/d57d6f83abb6b8d0efb02.jpg" alt="VJ-Filter-Bot Logo">
+  <img src="https://graph.org/file/284b9fa4a97b9f4da67fe.jpg" alt="VJ-Filter-Bot Logo">
 </p>
 <h1 align="center">
   VJ FILTER BOT
 </h1>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+VJ+Filter+Bot!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+FTM+Filter+Bot!)
 </p>
 
 ## Main Feature 
@@ -32,9 +32,9 @@
 - [x] Custom Tutorial Button
 - [x] Bot Pm File Auto Delete 
 
-Join My <a href='https://telegram.dog/vj_botz'>Update Channel</a> For More Update Regarding Repo.</b>
+Join My <a href='https://telegram.dog/ftmbots'>Update Channel</a> For More Update Regarding Repo.</b>
 
-### How To Deploy : [Video Tutorial](https://youtu.be/J5tiWdc_AWM)
+### How To Deploy : [Video Tutorial](https://youtu.be/J5tiWdAWM)
 
 ## Commands
 ```

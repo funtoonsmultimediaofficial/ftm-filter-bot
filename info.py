@@ -83,7 +83,7 @@ PM_SEARCH = bool(environ.get('PM_SEARCH', True))
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
+P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
@@ -93,14 +93,14 @@ SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
-NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
+NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', False))
+VERIFY = bool(environ.get('VERIFY', True))
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', '')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'shareus.io')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'xR5LVEpiKZTcgBzZGrwFXdohjGN2'')
 # if verify second shortner is True then fill below url and api
 VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
@@ -112,16 +112,16 @@ SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shareus.io')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'xR5LVEpiKZTcgBzZGrwFXdohjGN2')
 
 # Others
-MAX_B_TN = environ.get("MAX_B_TN", "10")
+MAX_B_TN = environ.get("MAX_B_TN", "22")
 PORT = environ.get("PORT", "8080")
-MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
+MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends created by @ftmmovieworld❤️')
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 
 # Choose Option Settings 
-LANGUAGES = ["malayalam", "mal", "tamil", "tam" ,"english", "eng", "hindi", "hin", "telugu", "tel", "kannada", "kan"]
+LANGUAGES = ["malayalam", "ftm", "FTM", "mal", "tamil", "tam" ,"english", "eng", "hindi", "hin", "telugu", "tel", "kannada", "kan"]
 SEASONS = ["season 1", "season 2", "season 3", "season 4", "season 5", "season 6", "season 7", "season 8", "season 9", "season 10"]
 EPISODES = ["E01", "E02", "E03", "E04", "E05", "E06", "E07", "E08", "E09", "E10", "E11", "E12", "E13", "E14", "E15", "E16", "E17", "E18", "E19", "E20", "E21", "E22", "E23", "E24", "E25", "E26", "E27", "E28", "E29", "E30", "E31", "E32", "E33", "E34", "E35", "E36", "E37", "E38", "E39", "E40"]
 QUALITIES = ["360p", "480p", "720p", "1080p", "1440p", "2160p"]
@@ -144,7 +144,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://eldest-gwenora-private00091-54f73534.koyeb.app/")
+URL = environ.get("URL", "https://chief-danika-private00091-f8154722.koyeb.app/")
 
 
 # Rename Info : If True Then Bot Rename File Else Not

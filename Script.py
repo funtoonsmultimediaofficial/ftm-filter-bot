@@ -228,15 +228,10 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : @ftmmovieworld {filename}
-</b>
-<b>⏰ Dᴜʀᴀᴛɪᴏɴ: {duration} ⏳
-</b>
-<b>🌐 Uᴘʟᴏᴀᴅᴇᴅ ʙʏ @FTMMOVIEWORLDOFFICIAL 🌟 </b>
-<b>🎥 Rɪᴘᴘᴇᴅ ʙʏ @FUNTOONSMULTIMEDIA 🔥</b>
-
-<b> Size ⚙️: {file_size} 📦 </b>""" 
-
+    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : @ftmmovieworldofficial{file_name}
+<b>🌐 Uᴘʟᴏᴀᴅᴇᴅ ʙʏ @FTMMOVIEWORLDOFFICIAL 🌟 
+🎥 Rɪᴘᴘᴇᴅ ʙʏ @FUNTOONSMULTIMEDIA 🔥
+<b> Size ⚙️: {file_size}</b>""" 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
 

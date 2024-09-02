@@ -144,7 +144,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://ftm-bot.onrender.com")
+URL = environ.get("URL", "https://awful-vivien-private00091-e24f1946.koyeb.app")
 
 
 # Rename Info : If True Then Bot Rename File Else Not
